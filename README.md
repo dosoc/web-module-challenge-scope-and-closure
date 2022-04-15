@@ -61,6 +61,8 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+  A closure is when a function accesses a variable outside of the local scope and retains it in memory.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,8 +84,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  when the anonymous function inside personalDice accesses and stores the variable passed in as name. 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+  the name variable "Dan" is always the same but the variable newRoll could change because it is not stored in memory.
 c. What is the lexical scope of `newRoll`? 
+  the lexical scope of 'newRoll' is inside the anonymous function 
 
 
 ### Task 3 - Stretch Goals
