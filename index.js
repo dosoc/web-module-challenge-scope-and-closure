@@ -180,7 +180,7 @@ function scoreboard(callback1, callback2, num) {
   }
   return game;
 }
-console.log(scoreboard(getInningScore,inning, 9))
+console.log(scoreboard(getInningScore,inning, 15))
 
 
 
